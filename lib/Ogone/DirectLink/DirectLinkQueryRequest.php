@@ -11,8 +11,8 @@ use Ogone\ShaComposer\ShaComposer;
 class DirectLinkQueryRequest extends AbstractDirectLinkRequest
 {
 
-    const TEST = "https://secure.ogone.com/ncol/test/querydirect_utf8.asp";
-    const PRODUCTION = "https://secure.ogone.com/ncol/prod/querydirect_utf8.asp";
+    const TEST = "https://e-payment.postfinance.ch/ncol/test/querydirect_utf8.asp";
+    const PRODUCTION = "https://e-payment.postfinance.ch/ncol/prod/querydirect_utf8.asp";
 
     public function __construct(ShaComposer $shaComposer)
     {
